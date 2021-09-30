@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row ">
+        <div class="row col-3">
+
+            <ul class="list-group mt-2">
+
+                <a href="/">
+                    <li class="list-group-item" aria-current="true">All Category</li>
+                </a>
+
+                {% for cat in category %}
+                <a href="/?category={{cat.id}}">
+                    <li class="list-group-item ">{{cat.category}}</li>
+                </a>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="row col-9">
+
+
+            {% for product in prod %}
+            <div class="col-md-3 mt-2 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img class="img-fluid" src="{{product.img.url}}" alt="">
+                        <p class="card-title fw-bold">{{product.product_name}}</p>
+                        <p class="card-text">{{product.Price}}</p>
+
+                        <!--                            <p class="card-text">{{product.Desc}}</p>-->
+                        <a href="#" class="btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
