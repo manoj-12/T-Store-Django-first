@@ -10,10 +10,13 @@ def log_In(request):
         email = request.POST.get('email')
         password = request.POST.get('password')
         customer = Customer.get_customer_by_email(email)
+        print(customer)
         error_massage = None
         if customer:
             flag = check_password(password, customer.password)
             if flag:
+                request.session['customer'] = customer.id
+                # request.session['email'] = customer.email
                 return redirect('/')
             else:
                 error_massage = 'email or  password invalid'
@@ -21,3 +24,8 @@ def log_In(request):
             # error massage
             error_massage = 'email or  password invalid'
         return render(request, "login.html", {"errormassage": error_massage})
+
+
+def logout(request):
+    request.session.clear()
+    return redirect('login')
