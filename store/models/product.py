@@ -8,3 +8,6 @@ class Product(models.Model):
     Desc = models.CharField(max_length=50, default='',null=True,blank=True)
     img = models.ImageField(upload_to='product/')
 
+
+    def __str__(self):
+        return self.product_name

@@ -7,11 +7,14 @@
     <list default="true" id="1bb78e10-671c-42f0-ba33-529d39b69bf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models/product.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/templatetags/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/templatetags/cart.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/views/login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/store/templates" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\T-Store-Django-first\store\templates" />
+      <recent name="D:\T-Store-Django-first\store\views" />
+      <recent name="D:\T-Store-Django-first\store\models" />
+      <recent name="D:\T-Store-Django-first\store\templatetags" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

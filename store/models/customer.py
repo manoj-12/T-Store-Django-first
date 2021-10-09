@@ -7,6 +7,10 @@ class Customer(models.Model):
     phone = models.CharField(max_length=250)
     password = models.CharField(max_length=250)
 
+    def __str__(self):
+        return self.first_name
+
+
     @staticmethod
     def get_customer_by_email(email):
         try:

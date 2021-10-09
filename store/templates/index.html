@@ -3,6 +3,7 @@
 {% block content %}
 
 {% load cart %}
+{% load showcurrencysimbol %}
 <div class="container">
     <div class="row ">
         <div class="row col-3">
@@ -29,7 +30,7 @@
                     <div class="card-body">
                         <img class="img-fluid" src="{{product.img.url}}" alt="">
                         <p class="card-title fw-bold">{{product.product_name}}</p>
-                        <p class="card-text">{{product.Price}}</p>
+                        <p class="card-text">{{product.Price|currency}}</p>
 <!--                        {{product|Product_in_cart:request.session.cart}}-->
                         <!-- <p class="card-text">{{product.Desc}}</p>-->
 
